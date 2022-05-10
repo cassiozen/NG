@@ -16,8 +16,8 @@
     --lightgray: #333;
     --gray: #A0A0A0;
     --darkgray: #e0e0e0;
-    --navy: #d2b168;
-    --blue: #1c7dc7;
+    --navy: #b69859;
+    --blue: #d2b168;
     --white: #222;
   }
 }
@@ -240,11 +240,16 @@ html {
   font-size: 1.25em;
 }
 
+@media only screen and (max-width: 600px) {
+  html {
+    padding: 1em 0.7em;
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
   margin: 3em 0 1em;
 }
 
 p,ul,ol {
   margin-bottom: 2em;
-  font-family: sans-serif;
 }
